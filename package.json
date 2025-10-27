@@ -1,0 +1,25 @@
+{
+  "name": "TokenPath",
+  "version": "1.0.0",
+  "description": "A simple blockchain token project demonstrating basic ERC20-like functionality with Hardhat.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "token",
+    "hardhat",
+    "ethereum"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.1"
+  }
+}
